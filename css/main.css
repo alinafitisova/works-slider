@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+body {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  background: yellow;
+}
+
+.works {
+  margin: 93px auto 168px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 970px;
+  margin: 0 auto;
+}
+
+.subtitle {
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #303030;
+  font-size: 18px;
+  letter-spacing: 0.2em;
+  margin: 0;
+}
+
+.title {
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #000;
+  font-size: 84px;
+  line-height: 90px;
+  text-align: center;
+  margin: 13px auto 89px;
+}
+
+.slider {
+  max-width: 1800px;
+}
+
+.slider__item {
+  max-width: 440px;
+  max-height: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+  max-width: 80%;
+}
+
+.heading-work {
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.heading-work__name {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 24px;
+  letter-spacing: 0.2em;
+}
+
+.heading-work__by {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 24px;
+  letter-spacing: 0.2em;
+}

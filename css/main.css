@@ -10,6 +10,12 @@ body {
   margin: 93px auto 168px;
 }
 
+@media screen and (max-width: 540px) {
+  .works {
+    margin: 50px auto 150px;
+  }
+}
+
 .container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -47,13 +53,36 @@ body {
   margin: 12px auto 96px;
 }
 
+@media screen and (max-width: 1024px) {
+  .title {
+    font-size: 46px;
+    line-height: 49px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .title {
+    margin: 35px auto 56px;
+    padding: 0 15px;
+    font-size: 36px;
+    line-height: 39px;
+  }
+}
+
 .slider {
-  height: 40%;
+  height: 400px;
   position: relative;
   margin: 0 auto;
   padding: 0 0 0 137px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+}
+
+@media screen and (max-width: 540px) {
+  .slider {
+    padding: 0 0 0 27px;
+    margin-bottom: 2px;
+  }
 }
 
 .slider__item {
@@ -66,6 +95,12 @@ body {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   margin-right: 45px;
+}
+
+@media screen and (max-width: 540px) {
+  .slider__item {
+    margin-right: 25px;
+  }
 }
 
 .heading-work {
@@ -111,6 +146,18 @@ body {
   cursor: pointer;
 }
 
+@media screen and (max-width: 1024px) {
+  .slick-arrow {
+    top: 43%;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .slick-arrow {
+    top: 103%;
+  }
+}
+
 .slick-arrow:hover {
   border-color: #000;
 }
@@ -126,8 +173,35 @@ body {
           transform: rotate(45deg);
 }
 
+@media screen and (max-width: 1024px) {
+  .slick-arrow:after {
+    width: 13px;
+    height: 13px;
+    top: 19px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .slick-arrow {
+    width: 57px;
+    height: 57px;
+  }
+}
+
 .slick-prev {
   left: 22px;
+}
+
+@media screen and (max-width: 540px) {
+  .slick-prev {
+    left: 105px;
+  }
+}
+
+@media screen and (max-width: 280px) {
+  .slick-prev {
+    left: 50px;
+  }
 }
 
 .slick-prev::after {
@@ -136,13 +210,37 @@ body {
   left: 42px;
 }
 
+@media screen and (max-width: 1024px) {
+  .slick-prev::after {
+    left: 21px;
+  }
+}
+
 .slick-next {
   right: 60px;
+}
+
+@media screen and (max-width: 540px) {
+  .slick-next {
+    right: 95px;
+  }
+}
+
+@media screen and (max-width: 280px) {
+  .slick-next {
+    left: 160px;
+  }
 }
 
 .slick-next::after {
   border-right: 3px solid rgba(0, 0, 0, 0.562);
   border-top: 3px solid rgba(0, 0, 0, 0.562);
   right: 45px;
+}
+
+@media screen and (max-width: 1024px) {
+  .slick-next::after {
+    right: 21px;
+  }
 }
 /*# sourceMappingURL=main.css.map */

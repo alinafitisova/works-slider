@@ -34,7 +34,7 @@ body {
   color: #303030;
   font-size: 18px;
   letter-spacing: 0.2em;
-  margin: 0;
+  margin: 0 0 0 23px;
 }
 
 .title {
@@ -50,7 +50,10 @@ body {
 .slider {
   height: 405px;
   position: relative;
-  padding: 0 123px 0;
+  margin: 0 auto;
+  padding: 0 285px 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .slider__item {
@@ -62,9 +65,6 @@ body {
   background-size: cover;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-}
-
-.slider__item:not(:last-child) {
   margin-right: 45px;
 }
 
@@ -97,7 +97,7 @@ body {
 
 .slick-arrow {
   position: absolute;
-  top: 48%;
+  top: 37%;
   z-index: 3;
   font-size: 0;
   width: 96px;
@@ -118,8 +118,8 @@ body {
 .slick-arrow:after {
   content: '';
   display: block;
-  width: 27px;
-  height: 27px;
+  width: 23px;
+  height: 23px;
   position: absolute;
   top: 34px;
   -webkit-transform: rotate(45deg);
@@ -127,22 +127,22 @@ body {
 }
 
 .slick-prev {
-  left: 10px;
+  left: 169px;
 }
 
 .slick-prev::after {
-  border-left: 2px solid rgba(0, 0, 0, 0.562);
-  border-bottom: 2px solid rgba(0, 0, 0, 0.562);
-  left: 18px;
+  border-left: 3px solid rgba(0, 0, 0, 0.562);
+  border-bottom: 3px solid rgba(0, 0, 0, 0.562);
+  left: 42px;
 }
 
 .slick-next {
-  right: 10px;
+  right: 210px;
 }
 
 .slick-next::after {
-  border-right: 2px solid rgba(0, 0, 0, 0.562);
-  border-top: 2px solid rgba(0, 0, 0, 0.562);
-  right: 34px;
+  border-right: 3px solid rgba(0, 0, 0, 0.562);
+  border-top: 3px solid rgba(0, 0, 0, 0.562);
+  right: 45px;
 }
 /*# sourceMappingURL=main.css.map */
